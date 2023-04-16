@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar */
+.nav {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #f1ecec;
+  align-items: center;
+}
+
+/* navbar logo */
+.logo {
+  color: #a55c30;
+  font-family: "Lora";
+  font-style: normal;
+
+  font-family: Lora;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Lora;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Lora;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  text-decoration: none;
+}
+
+/* navbar branches list */
+.nav_list {
+  gap: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
+  align-items: center;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+/* navbar branches */
+.nav_list-item a {
+  text-decoration: none;
+  color: #232730;
+}
+
+.nav_list-item a:hover {
+  color: #f8d7a4;
+}
+
+/* large sentences */
+.line {
+  color: #232730;
+  position: absolute;
+  width: 400px;
+  height: 288px;
+  left: 179px;
+  top: 281px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+  border-left: 9px solid #f8d7a4;
+  padding-left: 30px;
+}
+
+/* background dot of car */
+.back-dot {
+  position: absolute;
+  width: 668px;
+  height: 842px;
+  left: 868px;
+  top: -51px;
+  z-index: 1;
+}
+
+/* car on main pg */
+.car1 {
+  position: absolute;
+  width: 832.23px;
+  height: 503.5px;
+  left: 595px;
+  top: 212px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  z-index: 2;
+}
+
+/* Main Scroll Bar */
+body::-webkit-scrollbar {
+  /* width: 12px; */
+  display: none;
+}
+
+/* body::-webkit-scrollbar-track {
+  margin-block: 0.5em;
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #146c94;
+  border: 0.1em solid #f6f1f1;
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 100vw;
+} */
+
+/* driver man pic */
+.driver-man {
+  position: absolute;
+  width: 703px;
+  height: 546px;
+  left: 0px;
+  top: 780.75px;
+}
+
+.about {
+  position: absolute;
+  width: 159px;
+  height: 72px;
+  left: 807px;
+  top: 780px;
+  /* 864.75px */
+
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+
+  color: #a55c30;
+}
+
+.known {
+  position: absolute;
+  width: 459px;
+  height: 72px;
+  left: 805px;
+  top: 910px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+
+  color: #232730;
+}
+
+.lorem {
+  position: absolute;
+  width: 507px;
+  height: 212px;
+  left: 805px;
+  top: 995px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #232730;
+}
+
+.services {
+  position: absolute;
+  width: 100%;
+  height: 755px;
+  left: 0px;
+  top: 1443px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),
+    url(./images/black-car.png);
+  background-blend-mode: multiply, normal;
+}
+
+.title {
+  position: absolute;
+  width: 194px;
+  height: 61px;
+  left: 123px;
+  top: 107px;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 61px;
+
+  color: #a55c30;
+}
+
+.star-body {
+  position: absolute;
+  width: 96.76px;
+  height: 104px;
+  left: 223px;
+  top: 250px;
+}
+
+.star-stick1 {
+  position: absolute;
+  width: 43.45px;
+  height: 7.43px;
+  left: 283.55px;
+  top: 309.43px;
+  background: #f8d7a4;
+}
+
+.star-stick2 {
+  position: absolute;
+  width: 43.45px;
+  height: 7.43px;
+  left: 283.55px;
+  top: 324.29px;
+
+  background: #f8d7a4;
+}
+
+.star-stick3 {
+  position: absolute;
+  width: 28.97px;
+  height: 7.43px;
+  left: 283.55px;
+  top: 339.14px;
+
+  background: #f8d7a4;
+}
+
+.star-lorem {
+  position: absolute;
+  width: 303px;
+  height: 234px;
+  left: 123px;
+  top: 410px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  align-items: start;
+  vertical-align: top;
+
+  letter-spacing: -0.5%;
+
+  color: #ffffff;
+}
+
+.uni-man {
+  position: absolute;
+  width: 86px;
+  height: 98px;
+  left: 678px;
+  top: 256px;
+}
+
+.uni-man-lorem {
+  position: absolute;
+  width: 303px;
+  height: 234px;
+  left: 569px;
+  top: 410px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  letter-spacing: -0.005em;
+
+  color: #ffffff;
+}
+
+.diamond {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  left: 1115px;
+  top: 256px;
+  bottom: 12.19%;
+}
+
+.diamond-lorem {
+  position: absolute;
+  width: 303px;
+  height: 234px;
+  left: 1015px;
+  top: 410px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  letter-spacing: -0.005em;
+
+  color: #ffffff;
+}

@@ -1,0 +1,18 @@
+.wrapper {
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 5px;
+    position: relative;
+}
+.box:nth-child(1){
+    /* margin-left: 50%; */
+    background-color: blueviolet;
+    top: 300px;
+    left: 300px;
+}

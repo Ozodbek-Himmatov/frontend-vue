@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 5px solid green;
+  border-radius: 7px;
+  width: 500px;
+  margin-top: 10px;
+  height: 200px;
+  background: grey;
+  padding: 10px;
+}
+
+.main {
+  background-color: rgb(157, 255, 0);
+}
