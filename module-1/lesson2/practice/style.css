@@ -195,12 +195,14 @@ body::-webkit-scrollbar-track {
   left: 0px;
   top: 1443px;
 
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)),
-    url(./images/black-car.png);
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)); */
+  background-image:url(./images/black-car.png);
+  background-repeat: no-repeat;
   background-blend-mode: multiply, normal;
+  background-attachment: fixed;
 }
 
-.title {
+.title-services {
   position: absolute;
   width: 194px;
   height: 61px;
@@ -322,4 +324,338 @@ body::-webkit-scrollbar-track {
   letter-spacing: -0.005em;
 
   color: #ffffff;
+}
+
+.title-cars {
+  position: absolute;
+  width: 134px;
+  height: 72px;
+  left: 662px;
+  top: 2257px;
+
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+
+  color: #a55c30;
+}
+
+.circle-left {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 45px;
+  top: 2609px;
+
+  border: 1px solid #ffffff;
+  transform: rotate(-180deg);
+}
+
+.arrow-left {
+  position: absolute;
+  width: 8.49px;
+  height: 14.14px;
+  left: 57.93px;
+  top: 2619.93px;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.card1 {
+  position: absolute;
+  width: 378px;
+  height: 468px;
+  left: 124px;
+  top: 2393px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card1-pic {
+  position: absolute;
+  width: 311px;
+  height: 160px;
+  left: 36px;
+  top: 61px;
+
+  background: url(image.png);
+}
+
+.card1-title {
+  position: absolute;
+  width: 151px;
+  height: 33px;
+  left: 116px;
+  top: 248px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #a55c30;
+}
+
+.card1-subtitle {
+  position: absolute;
+  width: 134px;
+  height: 16px;
+  left: 116px;
+  top: 281px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: rgba(35, 34, 34, 0.96);
+}
+
+.card1-lorem {
+  position: absolute;
+  width: 299px;
+  height: 99px;
+  left: 42px;
+  top: 319px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: rgba(35, 34, 34, 0.96);
+}
+
+.seat {
+  position: absolute;
+  left: 36px;
+  top: 422px;
+}
+
+.text-seat {
+  position: absolute;
+  width: 52px;
+  height: 19px;
+  left: 76px;
+  top: 422px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: rgba(35, 34, 34, 0.96);
+}
+
+.lug {
+  position: absolute;
+  width: 19.07px;
+  height: 15.75px;
+  left: 241px;
+  top: 424px;
+}
+
+.text-lug {
+  position: absolute;
+  width: 67px;
+  height: 19px;
+  left: 279.53px;
+  top: 424.25px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: rgba(35, 34, 34, 0.96);
+}
+
+.card2 {
+  position: absolute;
+  width: 378px;
+  height: 468px;
+  left: 531px;
+  top: 2393px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card2-pic {
+  position: absolute;
+  width: 311px;
+  height: 160px;
+  left: 36px;
+  top: 61px;
+
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.card2-title {
+  position: absolute;
+  width: 203px;
+  height: 33px;
+  left: 90px;
+  top: 248px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+
+  text-align: center;
+
+  color: #a55c30;
+}
+
+.card2-subtitle {
+  position: absolute;
+  width: 112px;
+  height: 16px;
+  left: 116px;
+  top: 281px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: rgba(35, 34, 34, 0.96);
+}
+
+.card2-lorem {
+  position: absolute;
+  width: 299px;
+  height: 99px;
+  left: 42px;
+  top: 319px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: rgba(35, 34, 34, 0.96);
+}
+
+.card3 {
+  position: absolute;
+  width: 378px;
+  height: 468px;
+  left: 938px;
+  top: 2393px;
+
+  background: #ffffff;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card3-pic {
+  position: absolute;
+  width: 311px;
+  height: 180px;
+  left: 36px;
+  top: 41px;
+}
+
+.card3-title {
+  position: absolute;
+  width: 51px;
+  height: 33px;
+  left: 166px;
+  top: 248px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+
+  text-align: center;
+
+  color: #a55c30;
+}
+
+.card3-subtitle {
+  position: absolute;
+  width: 96px;
+  height: 16px;
+  left: 136px;
+  top: 281px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  color: rgba(35, 34, 34, 0.96);
+}
+
+.card3-lorem {
+  position: absolute;
+  width: 299px;
+  height: 99px;
+  left: 42px;
+  top: 319px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: rgba(35, 34, 34, 0.96);
+}
+
+.circle-right {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 1359px;
+  top: 2609px;
+
+  border: 1px solid #ffffff;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.arrow-right {
+  position: absolute;
+  width: 8.49px;
+  height: 14.14px;
+  left: 1373.59px;
+  top: 2619.93px;
+}
+
+.white-pag {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+
+  top: 2970px;
+  left: 688px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
