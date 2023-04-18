@@ -6,15 +6,20 @@
 
 /* navbar */
 .nav {
+  position: absolute;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  background-color: #f1ecec;
   z-index: 2;
   position: absolute;
   width: 100%;
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  height: 70px;
-  background-color: #f1ecec;
+  /* height: 70px; */
   align-items: center;
+  
 }
 
 /* navbar logo */
@@ -66,6 +71,10 @@
 }
 
 .nav_list-item a:hover {
+  color: #f8d7a4;
+}
+
+.nav_list-item a:active {
   color: #f8d7a4;
 }
 
@@ -142,9 +151,8 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 159px;
   height: 72px;
-  left: 807px;
+  right: 474px;
   top: 780px;
-  /* 864.75px */
 
   font-family: "Lora";
   font-style: normal;
@@ -159,7 +167,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 459px;
   height: 72px;
-  left: 805px;
+  right: 176px;
   top: 910px;
 
   font-family: "Nunito Sans";
@@ -176,7 +184,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 507px;
   height: 212px;
-  left: 805px;
+  right: 128px;
   top: 995px;
 
   font-family: "Nunito Sans";
@@ -192,12 +200,12 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 100%;
   height: 755px;
-  left: 0px;
   top: 1443px;
 
   /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)); */
-  background-image:url(./images/black-car.png);
+  background-image: url(./images/black-car.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-blend-mode: multiply, normal;
   background-attachment: fixed;
 }
@@ -206,7 +214,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 194px;
   height: 61px;
-  left: 123px;
+  right: 1123px;
   top: 107px;
 
   font-family: "Lora";
@@ -222,7 +230,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 96.76px;
   height: 104px;
-  left: 223px;
+  right: 1120.24px;
   top: 250px;
 }
 
@@ -230,7 +238,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 43.45px;
   height: 7.43px;
-  left: 283.55px;
+  right: 1113px;
   top: 309.43px;
   background: #f8d7a4;
 }
@@ -239,7 +247,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 43.45px;
   height: 7.43px;
-  left: 283.55px;
+  right: 1113px;
   top: 324.29px;
 
   background: #f8d7a4;
@@ -249,7 +257,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 28.97px;
   height: 7.43px;
-  left: 283.55px;
+  right: 1127.48px;
   top: 339.14px;
 
   background: #f8d7a4;
@@ -259,7 +267,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 303px;
   height: 234px;
-  left: 123px;
+  right: 1014px;
   top: 410px;
 
   font-family: "Nunito Sans";
@@ -278,7 +286,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 86px;
   height: 98px;
-  left: 678px;
+  right: 676px;
   top: 256px;
 }
 
@@ -286,7 +294,7 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 303px;
   height: 234px;
-  left: 569px;
+  right: 568px;
   top: 410px;
 
   font-family: "Nunito Sans";
@@ -301,9 +309,7 @@ body::-webkit-scrollbar-track {
 
 .diamond {
   position: absolute;
-  left: 0%;
-  right: 0%;
-  left: 1115px;
+  right: 221px;
   top: 256px;
   bottom: 12.19%;
 }
@@ -312,12 +318,11 @@ body::-webkit-scrollbar-track {
   position: absolute;
   width: 303px;
   height: 234px;
-  left: 1015px;
+  right: 122px;
   top: 410px;
 
   font-family: "Nunito Sans";
   font-style: normal;
-  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
 
