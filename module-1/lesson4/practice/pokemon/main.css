@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: yellow;
+}
+
+.content {
+  border-top: black solid 3px;
+  
+}
+
+#card-items {
+  border-radius: 30px;
+  border: black solid 3px;
+  background-color: #fff;
+  width: 300px;
+}
+
+.line-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-1 .name {
+  font-size: 27px;
+}
+
+.line-1 .type {
+  font-size: 20px;
+}
